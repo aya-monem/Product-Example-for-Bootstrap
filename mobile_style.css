@@ -1,0 +1,181 @@
+body{
+    width: 80%;
+    margin :auto;
+    font-family: sans-serif;
+}
+.headLinks a{
+    display: inline-block;
+    text-decoration: none;
+    color : gray;
+    padding-top :10px;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size : 13px;
+}
+.headLinks{
+    text-align: center;
+    background-color:black;
+    display: inline-block;
+    width : 100%;
+    height : 40px;
+    background-image: url('http://chittagongit.com//images/website-icon-transparent/website-icon-transparent-0.jpg');
+    background-position: 120px 10px;
+    background-repeat: no-repeat;
+    background-size : 21px 21px;
+    
+}
+/* data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAQAAABKfvVzAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAADdcAAA3XAUIom3gAAAAHdElNRQfiCwUNEBSPloR1AAAB0UlEQVQ4y3XUz0vTcRwG8NfWtxzpOmjlqkOCngJdRKBeCwyEhWQdSzoJw4udolowosCz+g9E0A4FVjTQdcgf0EJZ5rlLl7JyEQQSUdDBTffd1vv2/jzP837eny/f5xMRrmPOSepzyF/frSt5a9N/6oCbVo3r1wZa9Fq0ISNoRh+yLN0A5XQZlZOsp0/aMluZXC8gbkF65yAKksactGbJmEgT958uurDnEihWmrgpywYbHKBdvrpwxo0aSo85j5xoEDAiAwkrDWuklN0RqxNQlNjnvI9WQ/RL7pr227SyU175sYu0aSWrs4bcp2BGB+gwYzvkkJINdPtSaY+456wPJip92YTDu+TjpnTYikqA/SYtKLjc9B+Iue2Fx4YdjfqDYUUHDXralD7qjW0D8ggCX+WVpXzSvJ5YM+RbpdskK1UDd9kOXbqgrwbtlA2UdIcmPvdawUNcdX/3A1SXK5FQDDnkEHPLVsgZIlYkoja9NFIH/fJAnyvm9NScTprfCVMgrz3kUK1+S6bEQVJxLy1Jz8SaCIi4puS6VuvhEKUtiDcRQJtZn6sB2quknNEmgkDafGNEd6CMDYt6tVQmDxj3PvwI1Cchod8Zp7WLKnvX+Mz8A5tmddar3SUVAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE4LTExLTA1VDEzOjE2OjIwKzAxOjAwHSpd4AAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOC0xMS0wNVQxMzoxNjoyMCswMTowMGx35VwAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAAElFTkSuQmCC*/
+.firstPart {
+   float : center;
+    width: 96%;
+    margin : 2%;
+    height:350px;
+    overflow: hidden;
+    background-color:whitesmoke;
+    text-align: center;
+    position: relative;
+}
+.whiteImg{
+    transform: rotate(30deg);
+    position : absolute;
+    left : -50px;
+    bottom : 70px;
+    opacity : 0.15;
+}
+.blackImg {
+    transform: rotate(30deg);
+    position : absolute;
+    right : 5px;
+    top : 60px;
+}
+.firstPart p{
+    color: grey;
+    position : absolute;
+    top : 60px;
+    left : 360px;
+}
+.firstPart button{
+    margin: 10px;
+    text-align :center;
+    width: 110px;
+     height : 35px;
+     border-radius: 5%;
+     background-color: whitesmoke;
+     border:1px solid silver;
+}
+.firstPart a{
+    text-decoration: none;
+    color : grey;
+}
+}
+.firstPart p::first-line{
+     font-size: 45px;
+     color:black;
+}
+.secondPart , .thirdPart {
+    display:inline-block;
+    width: 100%;
+    height:400px;
+    overflow: hidden;
+}
+.secondLeft , .thirdLeft , .forthLeft , .fifthLeft{
+    display:inline-block;
+    width: 46%;
+    margin-right : 2%;
+    margin-bottom : 2%;
+    margin-left : 2%;
+    text-align: center;
+}
+.secondLeft {
+    color : white;
+    background-color: rgb(51, 53, 61);
+}
+.secondRight span{
+    color : grey;
+}
+.secondPart img , .thirdPart img {
+    border-radius: 5%;
+}
+.secondRight , .thirdRight , .forthRight , .fifthRight{
+    display:inline-block;
+    width: 46%;
+    margin-bottom : 2%;
+    margin-left : 2%;
+    text-align: center;
+    background-color: whitesmoke;
+}
+.thirdPart {
+    margin-top : 2.5%;
+    position : relative;
+}
+.thirdLeft {
+     background-color: whitesmoke;
+}
+.thirdLeft span{
+    color : grey;
+}
+.thirdRight {
+    background-color:rgb(2, 143, 238);
+    color : white;
+}
+.thirdPart .headLinks{
+    position : absolute;
+    top : 70px;
+    opacity : 0.8 ;
+}
+.forthLeft , .forthRight ,.fifthRight , .fifthLeft {
+    background-color: whitesmoke;
+}
+.forthPart img , .fifthPart img {
+    border-radius: 5%;
+}
+.forthPart , .fifthPart{
+    margin-top : 2.5%;
+    position : relative;
+    overflow: hidden;
+    height : 400px;
+}
+.fifthPart{
+    height : 450px;
+}
+.forthPart .headLinks{
+    position : absolute;
+    top : 110px;
+    opacity : 0.8 ;
+}
+.fifthPart .headLinks{
+    position : absolute;
+    top : 180px;
+    opacity : 0.8 ;
+}
+.footer {
+    display:inline-block;
+      width : 80%;
+    margin : 5% 15%;
+}
+.footer1 , .footer2 , .footer3 , .footer4 , .footer5{
+    display : inline-block;
+    width : 17%;
+}
+.footer1 {
+    background-image: url('http://chittagongit.com//images/website-icon-transparent/website-icon-transparent-0.jpg');
+    background-position: 0 17px;
+    background-repeat: no-repeat;
+    background-size : 25px 25px;
+    font-size: small;
+    color : grey;
+    float: left;
+}
+.footer2 {
+    float : left;
+}
+.footer a {
+    text-decoration: none;
+    color:grey;
+    font-size: small;
+}
+.footer span {
+    display : inline-block;
+    font-size: large;
+    margin-bottom : 10px;  
+}
